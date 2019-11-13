@@ -1,0 +1,76 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Device_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-device_id" data-rule="required" data-source="device/index" class="form-control selectpage" name="row[device_id]" type="text" value="{$row.device_id|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Temp')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-temp" data-rule="required" class="form-control" name="row[temp]" type="text" value="{$row.temp|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Humidity')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-humidity" data-rule="required" class="form-control" name="row[humidity]" type="text" value="{$row.humidity|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Illumination')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-illumination" data-rule="required" class="form-control" name="row[illumination]" type="text" value="{$row.illumination|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Pm2_5')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-pm2_5" data-rule="required" class="form-control" name="row[pm2_5]" type="text" value="{$row.pm2_5|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Pm10')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-pm10" data-rule="required" class="form-control" name="row[pm10]" type="text" value="{$row.pm10|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Noise')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-noise" data-rule="required" class="form-control" name="row[noise]" type="text" value="{$row.noise|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Version')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-version" data-rule="required" class="form-control" name="row[version]" type="text" value="{$row.version|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Session_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-session_id" data-rule="required" data-source="session/index" class="form-control selectpage" name="row[session_id]" type="text" value="{$row.session_id|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Create_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-create_time" data-rule="required" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[create_time]" type="text" value="{$row.create_time}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Update_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-update_time" data-rule="required" class="form-control datetimepicker" data-date-format="YYYY-MM-DD HH:mm:ss" data-use-current="true" name="row[update_time]" type="text" value="{$row.update_time}">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

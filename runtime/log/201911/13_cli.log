@@ -1,0 +1,29 @@
+[ 2019-11-13T23:51:57+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000170s ]
+[ info ] [ LOG ] INIT File
+[ 2019-11-13T23:51:57+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-11-13T23:51:57+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000995s ]
+[ 2019-11-13T23:51:57+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-11-13T23:51:57+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000524s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2019-11-13T23:51:57+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'lamp' [ RunTime:0.000565s ]
+[ 2019-11-13T23:51:57+08:00 ][ sql ] [ SQL ] SHOW TABLE STATUS LIKE 'fa_lamp' [ RunTime:0.000337s ]
+[ 2019-11-13T23:51:57+08:00 ][ sql ] [ SQL ] SELECT * FROM `information_schema`.`columns` WHERE TABLE_SCHEMA = 'fastadmin' AND table_name = 'fa_lamp' ORDER BY ORDINAL_POSITION [ RunTime:0.000875s ]
+[ 2019-11-13T23:57:16+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000161s ]
+[ info ] [ LOG ] INIT File
+[ 2019-11-13T23:57:16+08:00 ][ info ] [ CACHE ] INIT File
+[ 2019-11-13T23:57:16+08:00 ][ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001116s ]
+[ 2019-11-13T23:57:16+08:00 ][ info ] [ DB ] INIT mysql
+[ 2019-11-13T23:57:16+08:00 ][ info ] [ LANG ] /www/wwwroot/tmp.eyutong.cn/application/admin/lang/zh-cn.php
+[ 2019-11-13T23:57:16+08:00 ][ sql ] [ DB ] CONNECT:[ UseTime:0.000515s ] mysql:host=127.0.0.1;dbname=fastadmin;charset=utf8
+[ 2019-11-13T23:57:16+08:00 ][ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.000877s ]
+[ 2019-11-13T23:57:16+08:00 ][ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `name` = 'lamp' LIMIT 1 [ RunTime:0.000316s ]
+[ 2019-11-13T23:57:16+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`pid` , `name` , `title` , `icon` , `remark` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (0 , 'lamp' , 'Lamp' , 'fa fa-circle-o' , '' , 1 , 'normal' , 1573660636 , 1573660636) [ RunTime:0.003236s ]
+[ 2019-11-13T23:57:16+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'lamp/index' LIMIT 1 [ RunTime:0.000423s ]
+[ 2019-11-13T23:57:16+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'lamp/add' LIMIT 1 [ RunTime:0.000198s ]
+[ 2019-11-13T23:57:16+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'lamp/edit' LIMIT 1 [ RunTime:0.000217s ]
+[ 2019-11-13T23:57:16+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'lamp/del' LIMIT 1 [ RunTime:0.000219s ]
+[ 2019-11-13T23:57:16+08:00 ][ sql ] [ SQL ] SELECT `id` FROM `fa_auth_rule` WHERE  `name` = 'lamp/multi' LIMIT 1 [ RunTime:0.000212s ]
+[ 2019-11-13T23:57:16+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 85 , 'lamp/index' , 'fa fa-circle-o' , '查看' , 0 , 'normal' , 1573660636 , 1573660636) [ RunTime:0.000299s ]
+[ 2019-11-13T23:57:16+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 85 , 'lamp/add' , 'fa fa-circle-o' , '添加' , 0 , 'normal' , 1573660636 , 1573660636) [ RunTime:0.000203s ]
+[ 2019-11-13T23:57:16+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 85 , 'lamp/edit' , 'fa fa-circle-o' , '编辑' , 0 , 'normal' , 1573660636 , 1573660636) [ RunTime:0.000241s ]
+[ 2019-11-13T23:57:16+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 85 , 'lamp/del' , 'fa fa-circle-o' , '删除' , 0 , 'normal' , 1573660636 , 1573660636) [ RunTime:0.000203s ]
+[ 2019-11-13T23:57:16+08:00 ][ sql ] [ SQL ] INSERT INTO `fa_auth_rule` (`id` , `pid` , `name` , `icon` , `title` , `ismenu` , `status` , `createtime` , `updatetime`) VALUES (NULL , 85 , 'lamp/multi' , 'fa fa-circle-o' , '批量更新' , 0 , 'normal' , 1573660636 , 1573660636) [ RunTime:0.000261s ]

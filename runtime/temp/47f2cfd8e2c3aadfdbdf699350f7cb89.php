@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:77:"/www/wwwroot/tmp.eyutong.cn/public/../application/index/view/index/index.html";i:1573639671;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:77:"/www/wwwroot/tmp.eyutong.cn/public/../application/index/view/index/index.html";i:1573659325;}*/ ?>
 <!DOCTYPE html>
 <html>
 
@@ -10,7 +10,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>FastAdmin - <?php echo __('The fastest framework based on ThinkPHP5 and Bootstrap'); ?></title>
+        <title>Gelee - <?php echo __('Smart Lamp'); ?></title>
 
         <!-- Bootstrap Core CSS -->
         <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
@@ -35,10 +35,10 @@
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-menu">
                         <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand page-scroll" href="#page-top"><img src="/assets/img/logo.png" style="width:200px;" alt=""></a>
+                    <!--<a class="navbar-brand page-scroll" href="#page-top"><img src="/assets/img/logo.png" style="width:200px;" alt=""></a>-->
                 </div>
 
-                <div class="collapse navbar-collapse" id="navbar-collapse-menu">
+                <!--<div class="collapse navbar-collapse" id="navbar-collapse-menu">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="https://www.gelee.xyz" target="_blank"><?php echo __('Home'); ?></a></li>
                         <li><a href="https://www.gelee.xyz/store.html" target="_blank"><?php echo __('Store'); ?></a></li>
@@ -50,7 +50,7 @@
                         <li><a href="https://forum.gelee.xyz" target="_blank"><?php echo __('Forum'); ?></a></li>
                         <li><a href="https://doc.gelee.xyz" target="_blank"><?php echo __('Docs'); ?></a></li>
                     </ul>
-                </div>
+                </div>-->
                 <!-- /.navbar-collapse -->
             </div>
             <!-- /.container-fluid -->
@@ -62,9 +62,9 @@
                     <div class="col-sm-12">
                         <div class="header-content">
                             <div class="header-content-inner">
-                                <h1>FastAdmin</h1>
-                                <h3><?php echo __('The fastest framework based on ThinkPHP5 and Bootstrap'); ?></h3>
-                                <a href="<?php echo url('index/user/index'); ?>" class="btn btn-outline btn-xl page-scroll"><?php echo __('Go to Member center'); ?></a>
+                                <h1>Gelee</h1>
+                                <h3><?php echo __('Smart Lamp'); ?></h3>
+                                <a href="<?php echo url('/Av1hfEbsjN.php/index/login'); ?>" class="btn btn-outline btn-xl page-scroll">登录控制台</a>
                             </div>
                         </div>
                     </div>
@@ -138,7 +138,6 @@
             <div class="cta-content">
                 <div class="container">
                     <h2><?php echo __('Do not hesitate'); ?><br><?php echo __('Start to act'); ?></h2>
-                    <a href="https://doc.gelee.xyz/docs/contributing.html" class="btn btn-outline btn-xl page-scroll"><?php echo __('Contribution'); ?></a>
                 </div>
             </div>
             <div class="overlay"></div>
@@ -147,18 +146,8 @@
         <footer>
             <div class="container">
                 <!-- FastAdmin是开源程序，建议在您的网站底部保留一个FastAdmin的链接 -->
-                <p>&copy; 2017-2019 <a href="https://www.gelee.xyz" target="_blank">FastAdmin</a>. All Rights Reserved.</p>
-                <ul class="list-inline">
-                    <li>
-                        <a href="https://gitee.com/karson/fastadmin"><?php echo __('Gitee'); ?></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/karsonzhang/fastadmin"><?php echo __('Github'); ?></a>
-                    </li>
-                    <li>
-                        <a href="https://shang.qq.com/wpa/qunwpa?idkey=46c326e570d0f97cfae1f8257ae82322192ec8841c79b2136446df0b3b62028c"><?php echo __('QQ group'); ?></a>
-                    </li>
-                </ul>
+                <p>&copy; 2017-2019 <a href="https://www.gelee.xyz" target="_blank">Gelee</a>. All Rights Reserved.</p>
+
             </div>
         </footer>
 
