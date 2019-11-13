@@ -42,7 +42,7 @@ return [
     // 默认时区
     'default_timezone'       => 'PRC',
     // 是否开启多语言
-    'lang_switch_on'         => true,
+    'lang_switch_on'         => false,
     // 默认全局过滤方法 用逗号分隔多个
     'default_filter'         => '',
     // 默认语言
@@ -260,7 +260,7 @@ return [
         //是否开启前台会员中心
         'usercenter'          => true,
         //登录验证码
-        'login_captcha'       => true,
+        'login_captcha'       => false,
         //登录失败超过10次则1天后重试
         'login_failure_retry' => true,
         //是否同一账号同一时间只能在一个地方登录
