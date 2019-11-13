@@ -1,8 +1,8 @@
 /*
  FastAdmin Install SQL
 
- 官网: https://www.fastadmin.net
- 演示: https://demo.fastadmin.net
+ 官网: https://www.gelee.xyz
+ 演示: https://demo.gelee.xyz
 
  Date: 2018年05月26日
 */
@@ -36,7 +36,7 @@ CREATE TABLE `fa_admin` (
 -- Records of fa_admin
 -- ----------------------------
 BEGIN;
-INSERT INTO `fa_admin` VALUES (1, 'admin', 'Admin', '075eaec83636846f51c152f29b98a2fd', 's4f3', '/assets/img/avatar.png', 'admin@fastadmin.net', 0, 1502029281, '127.0.0.1',1492186163, 1502029281, 'd3992c3b-5ecc-4ecb-9dc2-8997780fcadc', 'normal');
+INSERT INTO `fa_admin` VALUES (1, 'admin', 'Admin', '075eaec83636846f51c152f29b98a2fd', 's4f3', '/assets/img/avatar.png', 'admin@gelee.xyz', 0, 1502029281, '127.0.0.1',1492186163, 1502029281, 'd3992c3b-5ecc-4ecb-9dc2-8997780fcadc', 'normal');
 COMMIT;
 
 -- ----------------------------
@@ -577,6 +577,6 @@ CREATE TABLE `fa_version`  (
 -- ----------------------------
 BEGIN;
 INSERT INTO `fa_version` (`id`, `oldversion`, `newversion`, `packagesize`, `content`, `downloadurl`, `enforce`, `createtime`, `updatetime`, `weigh`, `status`) VALUES
-(1, '1.1.1,2', '1.2.1', '20M', '更新内容', 'https://www.fastadmin.net/download.html', 1, 1520425318, 0, 0, 'normal');
+(1, '1.1.1,2', '1.2.1', '20M', '更新内容', 'https://www.gelee.xyz/download.html', 1, 1520425318, 0, 0, 'normal');
 COMMIT;
 SET FOREIGN_KEY_CHECKS = 1;

@@ -226,7 +226,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form', 'template'], function
                             return false;
                         },
                         success: function (layero, index) {
-                            $(".layui-layer-btn1", layero).prop("href", "http://www.fastadmin.net/user/register.html").prop("target", "_blank");
+                            $(".layui-layer-btn1", layero).prop("href", "http://www.gelee.xyz/user/register.html").prop("target", "_blank");
                         }
                     });
                 } else {
@@ -543,7 +543,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form', 'template'], function
                     if (typeof row.homepage !== 'undefined') {
                         url = row.homepage;
                     } else if (typeof row.qq !== 'undefined') {
-                        url = 'https://wpa.qq.com/msgrd?v=3&uin=' + row.qq + '&site=fastadmin.net&menu=yes';
+                        url = 'https://wpa.qq.com/msgrd?v=3&uin=' + row.qq + '&site=gelee.xyz&menu=yes';
                     }
                     return '<a href="' + url + '" target="_blank" data-toggle="tooltip" title="' + __('Click to contact developer') + '" class="text-primary">' + value + '</a>';
                 },

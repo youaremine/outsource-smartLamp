@@ -4,7 +4,7 @@
  *
  * 安装完成后建议删除此文件
  * @author Karson
- * @website https://www.fastadmin.net
+ * @website https://www.gelee.xyz
  */
 // error_reporting(E_ERROR | E_WARNING | E_PARSE | E_NOTICE);
 // ini_set('display_errors', '1');
@@ -39,9 +39,9 @@ $sitename = "FastAdmin";
 $link = array(
     'qqun'  => "https://jq.qq.com/?_wv=1027&amp;k=487PNBb",
     'gitee' => 'https://gitee.com/karson/fastadmin/attach_files',
-    'home'  => 'https://www.fastadmin.net?ref=install',
-    'forum' => 'https://forum.fastadmin.net?ref=install',
-    'doc'   => 'https://doc.fastadmin.net?ref=install',
+    'home'  => 'https://www.gelee.xyz?ref=install',
+    'forum' => 'https://forum.gelee.xyz?ref=install',
+    'doc'   => 'https://doc.gelee.xyz?ref=install',
 );
 
 // 检测目录是否存在
@@ -78,17 +78,17 @@ if (is_file($lockFile)) {
                 if ($open_basedir) {
                     $dirArr = explode(PATH_SEPARATOR, $open_basedir);
                     if ($dirArr && in_array(__DIR__, $dirArr)) {
-                        $errInfo = '当前服务器因配置了open_basedir，导致无法读取父目录<br><a href="https://forum.fastadmin.net/thread/1145?ref=install" target="_blank">点击查看解决办法</a>';
+                        $errInfo = '当前服务器因配置了open_basedir，导致无法读取父目录<br><a href="https://forum.gelee.xyz/thread/1145?ref=install" target="_blank">点击查看解决办法</a>';
                     }
                 }
                 if (!$errInfo) {
-                    $errInfo = '当前权限不足，无法写入配置文件application/database.php<br><a href="https://forum.fastadmin.net/thread/1145?ref=install" target="_blank">点击查看解决办法</a>';
+                    $errInfo = '当前权限不足，无法写入配置文件application/database.php<br><a href="https://forum.gelee.xyz/thread/1145?ref=install" target="_blank">点击查看解决办法</a>';
                 }
             } else {
                 $dirArr = [];
                 foreach ($checkDirs as $k => $v) {
                     if (!is_dir(ROOT_PATH . $v)) {
-                        $errInfo = '当前代码仅包含核心代码，请前往官网下载完整包或资源包覆盖后再尝试安装，<a href="https://www.fastadmin.net/download.html?ref=install" target="_blank">立即前往下载</a>';
+                        $errInfo = '当前代码仅包含核心代码，请前往官网下载完整包或资源包覆盖后再尝试安装，<a href="https://www.gelee.xyz/download.html?ref=install" target="_blank">立即前往下载</a>';
                         break;
                     }
                 }

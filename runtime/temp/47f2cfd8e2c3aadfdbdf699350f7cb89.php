@@ -40,15 +40,15 @@
 
                 <div class="collapse navbar-collapse" id="navbar-collapse-menu">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="https://www.fastadmin.net" target="_blank"><?php echo __('Home'); ?></a></li>
-                        <li><a href="https://www.fastadmin.net/store.html" target="_blank"><?php echo __('Store'); ?></a></li>
-                        <li><a href="https://www.fastadmin.net/wxapp.html" target="_blank"><?php echo __('Wxapp'); ?></a></li>
-                        <li><a href="https://www.fastadmin.net/service.html" target="_blank"><?php echo __('Services'); ?></a></li>
-                        <li><a href="https://www.fastadmin.net/download.html" target="_blank"><?php echo __('Download'); ?></a></li>
-                        <li><a href="https://www.fastadmin.net/demo.html" target="_blank"><?php echo __('Demo'); ?></a></li>
-                        <li><a href="https://www.fastadmin.net/donate.html" target="_blank"><?php echo __('Donation'); ?></a></li>
-                        <li><a href="https://forum.fastadmin.net" target="_blank"><?php echo __('Forum'); ?></a></li>
-                        <li><a href="https://doc.fastadmin.net" target="_blank"><?php echo __('Docs'); ?></a></li>
+                        <li><a href="https://www.gelee.xyz" target="_blank"><?php echo __('Home'); ?></a></li>
+                        <li><a href="https://www.gelee.xyz/store.html" target="_blank"><?php echo __('Store'); ?></a></li>
+                        <li><a href="https://www.gelee.xyz/wxapp.html" target="_blank"><?php echo __('Wxapp'); ?></a></li>
+                        <li><a href="https://www.gelee.xyz/service.html" target="_blank"><?php echo __('Services'); ?></a></li>
+                        <li><a href="https://www.gelee.xyz/download.html" target="_blank"><?php echo __('Download'); ?></a></li>
+                        <li><a href="https://www.gelee.xyz/demo.html" target="_blank"><?php echo __('Demo'); ?></a></li>
+                        <li><a href="https://www.gelee.xyz/donate.html" target="_blank"><?php echo __('Donation'); ?></a></li>
+                        <li><a href="https://forum.gelee.xyz" target="_blank"><?php echo __('Forum'); ?></a></li>
+                        <li><a href="https://doc.gelee.xyz" target="_blank"><?php echo __('Docs'); ?></a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -138,7 +138,7 @@
             <div class="cta-content">
                 <div class="container">
                     <h2><?php echo __('Do not hesitate'); ?><br><?php echo __('Start to act'); ?></h2>
-                    <a href="https://doc.fastadmin.net/docs/contributing.html" class="btn btn-outline btn-xl page-scroll"><?php echo __('Contribution'); ?></a>
+                    <a href="https://doc.gelee.xyz/docs/contributing.html" class="btn btn-outline btn-xl page-scroll"><?php echo __('Contribution'); ?></a>
                 </div>
             </div>
             <div class="overlay"></div>
@@ -147,7 +147,7 @@
         <footer>
             <div class="container">
                 <!-- FastAdmin是开源程序，建议在您的网站底部保留一个FastAdmin的链接 -->
-                <p>&copy; 2017-2019 <a href="https://www.fastadmin.net" target="_blank">FastAdmin</a>. All Rights Reserved.</p>
+                <p>&copy; 2017-2019 <a href="https://www.gelee.xyz" target="_blank">FastAdmin</a>. All Rights Reserved.</p>
                 <ul class="list-inline">
                     <li>
                         <a href="https://gitee.com/karson/fastadmin"><?php echo __('Gitee'); ?></a>
